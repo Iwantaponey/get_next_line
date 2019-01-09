@@ -6,7 +6,7 @@
 /*   By: jsegueni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/09 11:00:00 by jsegueni          #+#    #+#             */
-/*   Updated: 2019/01/09 12:11:26 by jsegueni         ###   ########.fr       */
+/*   Updated: 2019/01/09 13:40:40 by jsegueni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # ifndef BUFF_SIZE
-#  define BUFF_SIZE 32
+#  define BUFF_SIZE 100
 # endif
 
 # include "libft/libft.h"
