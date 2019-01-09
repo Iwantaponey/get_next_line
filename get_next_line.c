@@ -6,7 +6,7 @@
 /*   By: jsegueni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/09 11:03:19 by jsegueni          #+#    #+#             */
-/*   Updated: 2019/01/09 14:39:23 by jsegueni         ###   ########.fr       */
+/*   Updated: 2019/01/09 15:52:38 by jsegueni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,14 @@ int	check_newline(char **line, char *overflow[BUFF_SIZE])
 			(*line)[i] = '\0';
 			++i;
 			(*overflow) = (*line + i);
-		//	ft_putstr(*line);
-		//	ft_putchar('\n');
-		//	ft_putstr(*overflow);
+			ft_putstr(*line);
+			ft_putchar('\n');
+			ft_putstr(*overflow);
 			return (1);
 		}
 		++i;
 	}
-//	ft_putstr(*line);
-	*overflow = "";
+	ft_putstr(*line);
 	return (0);
 }
 
