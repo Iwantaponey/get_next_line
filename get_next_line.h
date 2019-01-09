@@ -6,7 +6,7 @@
 /*   By: jsegueni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/09 11:00:00 by jsegueni          #+#    #+#             */
-/*   Updated: 2019/01/09 13:40:40 by jsegueni         ###   ########.fr       */
+/*   Updated: 2019/01/09 14:36:26 by jsegueni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,14 @@
 # define GET_NEXT_LINE_H
 
 # ifndef BUFF_SIZE
-#  define BUFF_SIZE 100
+#  define BUFF_SIZE 1
 # endif
 
 # include "libft/libft.h"
 # include <sys/types.h>
 # include <sys/uio.h>
+# include <limits.h>
+# include <stdio.h>
 
 int	get_next_line(const int fd, char **line);
 
